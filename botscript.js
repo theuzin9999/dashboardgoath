@@ -1,13 +1,6 @@
 // ===================== CONFIG FIREBASE ===========================
 const firebaseConfig = {
-  apiKey: "AIzaSyB-35zQDrQbz8ohZUdqpFkayYdAUDrLw6g",
-  authDomain: "history-dashboard-a70ee.firebaseapp.com",
-  databaseURL: "https://history-dashboard-a70ee-default-rtdb.firebaseio.com",
-  projectId: "history-dashboard-a70ee",
-  storageBucket: "history-dashboard-a70ee.appspot.com",
-  messagingSenderId: "969153856969",
-  appId: "1:969153856969:web:6b50fae1db463b8352d418",
-  measurementId: "G-9MVGBX2KLX"
+  databaseURL: "https://goathvelas-default-rtdb.firebaseio.com/"
 };
 
 // ===================== CORREÇÃO: ESPERA O HTML CARREGAR =====================
