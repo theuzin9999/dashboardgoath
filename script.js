@@ -6,14 +6,7 @@ import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/11
 
 // Config Firebase (Apenas Leitura)
 const firebaseConfig = {
-  apiKey: "AIzaSyB-35zQDrQbz8ohT_o_u_d_q_p_F_k_a_y_Y_d_A_U_D_r_L_w_6_g", // Chave fictícia por segurança
-  authDomain: "history-dashboard-a70ee.firebaseapp.com",
-  databaseURL: "https://history-dashboard-a70ee-default-rtdb.firebaseio.com",
-  projectId: "history-dashboard-a70ee",
-  storageBucket: "history-dashboard-a70ee.firebasestorage.app",
-  messagingSenderId: "969153856969",
-  appId: "1:969153856969:web:6b50fae1db463b8352d418",
-  measurementId: "G-9MVGBX2KLX"
+  databaseURL: "https://goathvelas-default-rtdb.firebaseio.com/"
 };
 const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);
