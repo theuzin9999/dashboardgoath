@@ -1,0 +1,12 @@
+{
+  "outDir": "dist",
+  "exclude": ["middleware.js", "vercel-middleware.EXEMPLO.js", "api", "netlify", "node_modules", "dist", ".git", ".github", ".vercel",
+              "build.mjs", "package.json", "package-lock.json", "protect.config.json", "netlify.toml",
+              "vercel.json", "README.md", "LEIA-ME.md", ".gitignore", ".env", "sw.js", "firebase-messaging-sw.js", "service-worker.js"],
+  "noObfuscate": [],
+  "guard": true,
+  "disableConsole": true,
+  "domainLock": [],
+  "prettyUrls": true,
+  "noindex": true
+}
